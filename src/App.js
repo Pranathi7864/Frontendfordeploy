@@ -4,7 +4,7 @@ import './App.css';
 function App() {
      const [msg,setmsg]=useState("");
     const handlemessage=()=>{
-    fetch("https://railway.app")
+    fetch("https://backend-production-dbea.up.railway.app/hello")
     .then(res=>res.text())
     .then((m)=>setmsg(m));}
    
