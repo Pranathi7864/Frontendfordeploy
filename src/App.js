@@ -5,7 +5,7 @@ import './App.css';
 function App() {
      const [msg,setmsg]=useState("");
     const handlemessage=()=>{
-    fetch("https://railway.appgit add .")
+    fetch("https://railway.app")
     .then(res=>res.text())
     .then((m)=>setmsg(m));}
    
